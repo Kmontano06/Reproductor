@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Player Music</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+</head>
+<body>
+<header class="container-header">
+	<figure class="container-header-logo"><img class="container-header-logo-images" src="img/logo.png"></figure>
+</header><!--header-->
+<div id="content-background">
+</div>
+<div class="container-images-song">
+	<div id="img-song">
+		<!--javascript-->
+		</div>
+		<div id="stars-song">
+			<ul class="list-star-item">
+				<li class='star-item'><div class='background-star star-bad'></div></li>
+				<li class='star-item'><div class='background-star star-bad'></div></li>
+				<li class='star-item'><div class='background-star star-bad'></div></li>
+				<li class='star-item'><div class='background-star star-bad'></div></li>
+				<li class='star-item'><div class='background-star star-bad'></div></li>
+			</ul>
+		</div>
+	</div>
+<div class="content-controls">	
+	<div class="controls-song">
+		<div id="content-other-song" class="preview-song"></div>
+		<button id="preview" class="btn-song btn-pass-song-preview" onclick="Reproductor.preview()" onmouseover="Reproductor.showPreview()" onmouseout="Reproductor.hideOtherSong()"><img class='control-img img-song-preview' src='img/preview.png'/></button>
+		<button id="play" class="btn-song btn-song-play" onclick="Reproductor.play()"><img class='controls-img img-song-play' src='img/triangulo.png'/></button>
+		<button id="pause" class="btn-song btn-song-pause" onclick="Reproductor.pause()"><img class='controls-img img-song-pause' src='img/pause.png'/></button>
+		<button id="next" class="btn-song btn-pass-song-next" onclick="Reproductor.next()" onmouseover="Reproductor.showNext()" onmouseout="Reproductor.hideOtherSong()"><img class='controls-img img-song-next' src='img/next.png'/></button>
+	</div>								
+	<div id="song" class="name-song">
+		<!--javascript-->
+	</div>	
+	<div class="controls-volumen">
+	<img class="img-song-volume-less" src="img/volume-.png">
+	 <input type="range" id="volume" class="controls-volumen-measure" onclick="Reproductor.volume()" value="50" step="10">
+	 <img class="img-song-volume-more" src="img/volume+.png">
+	</div><!--controls-volumen-->
+</div>
+	
+<div class="content-list">
+	<a class="reproductor-all" onclick="Reproductor.playAll()">Reproducir todo</a>
+	<ul id="content-list">
+		
+	</table>
+</div>
+	<script src="js/audio.js"></script>
+</body>
+</html>    

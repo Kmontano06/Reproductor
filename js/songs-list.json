@@ -1,0 +1,27 @@
+{
+	"Name" : "List of songs",
+	"Songs":[
+						{	
+							"song":"Instrumental 1",
+							"name":"Love Rain",
+							"url":"song/Instrumental 1.mp3",
+							"img":"img/img3.jpg",
+							"total":"10"
+						},
+						{	
+							"song":"Instrumental 2",
+							"name":"Love Rain",
+							"url":"song/Instrumental 2.mp3",
+							"img":"img/img1.jpg",
+							"total":"9"
+						},
+						{	
+							"song":"Instrumental 3",
+							"name":"Love Rain",
+							"url":"song/Instrumental 3.mp3",
+							"img":"img/img2.jpg",
+							"total":"6"
+						}
+				]
+				
+}
